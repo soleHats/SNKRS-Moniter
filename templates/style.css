@@ -1,0 +1,29 @@
+header {
+    background-color: lightblue;
+    border: 1, solid, black;
+    height: 5em;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+}
+
+.navBar {
+    float: center;
+    align-content: center;
+}
+
+.tabs {
+    display: inline-block;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.
+.card {
+    display:inline-block;
+}
+.mainBody{
+    
+}
