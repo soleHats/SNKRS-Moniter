@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
-    
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
 </head>
 
 <body>
@@ -16,40 +19,77 @@
             <ul class="navBar">
                 <li class="tabs navBtn">
                     <a href="#">
-                        <h1>Coming Up</h1>
+                        <h2>Coming Up</h2>
                     </a>
                 </li>
+
                 <li class="tabs navBtn">
                     <a href="#">
-                        <h1>Past Release</h1>
+                        <h2>Past Release</h2>
                     </a>
                 </li>
+
                 <li class="tabs navBtn">
                     <a href="#">
-                        <h1>Restock Watch</h1>
+                        <h2>Restock Watch</h2>
                     </a>
                 </li>
             </ul>
         </div>
     </header>
 
-    <div class="mainBody">
+    <div class="mainBody col-md-10 container">
         <div class="addBar">
-            <input type="text" placeholder="Enter SKU:">
-        </div>
+            <div class="row">
+                <div class="col-md-3">
+                    Product ID
+                    <input type="text" id="productId" class="form-control" placeholder="SKU / Product ID (Example: B42746)" required="">
+                </div>
 
-        <div class="sneakerList">
-            <h2>The website name</h2>
-            <div class="listCard">
+                <div class="col-md-3">
+                    Stock region
+                    <select name="region" id="stockRegion" class="form-control" required="">
+                        <option value="United States">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia / New Zealand">Australia / New Zealand</option>
+                        <option value="United Kingdom">United Kingdom</option
+                        ><option value="Europe">Europe</option>
+                    </select>
+                </div>
 
-                <div class="ImgBox card"><img src="#" height="200" width="200" ></div>
+                <div class="col-md-4">
+                    Client ID
+                    <input type="text" id="clientId" placeholder="Client ID" class="form-control">
+                </div>
 
-                <div class="card">
-                    <h3>Sneaker name </h3>
-                    <h4>Sneaker Colorway</h4>
+                <div class="col-md-2">
+                    <br>
+                    <input type="submit" class="form-control">
                 </div>
 
             </div>
+        </div>
+
+        <hr>
+        <div class="sneakerList container">
+
+            <div class="container websitBox">
+                <h4>Nike.nom</h4>
+                <div class="listCard">
+
+                    <div class="card">
+                        <img src="#" height="200" width="200">
+
+                        <div class="card">
+                            <h5>Sneaker name </h5>
+                            <h6>Sneaker Colorway</h6>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 

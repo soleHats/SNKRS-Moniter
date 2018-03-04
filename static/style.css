@@ -1,6 +1,4 @@
 header {
-    background-color: lightblue;
-    border: 1, solid, black;
     height: 5em;
     width: 100%;
 }
@@ -12,18 +10,25 @@ h1 {
 .navBar {
     float: center;
     align-content: center;
+    text-align: center;
 }
 
 .tabs {
     display: inline-block;
     text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em;
 }
-.
+
 .card {
-    display:inline-block;
+    display: inline;
 }
-.mainBody{
-    
+
+.mainBody {
+    padding-top: 1em;
+    align-content: center;
+    display: block;
+}
+
+.listCard {
+    display: inline;
 }
