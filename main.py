@@ -8,11 +8,12 @@ app = Flask(__name__)
 def index():
 	return render_template("Restock.html")
 
-@app.route('/upload', methods=['POST'])
+@app.route('/search', methods=['POST'])
 def prosess():
-	ID = request.form['ID']
+	StyleCode = request.form['ID']
+	region = request.form['region']
 
-	return render_template("Restock.html", id=ID)
+	return
 
 
 if __name__ == "__main__":
