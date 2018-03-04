@@ -9,45 +9,48 @@
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
     <link rel="stylesheet" type="text/css" href="../static/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <header>
-        <div class="divnavBar">
-            <ul class="navBar">
-                <li class="tabs navBtn">
-                    <a href="#">
-                        <h2>Coming Up</h2>
-                    </a>
-                </li>
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
 
-                <li class="tabs navBtn">
-                    <a href="#">
-                        <h2>Past Release</h2>
-                    </a>
-                </li>
+                <a href="#">
+                    <h2>Coming Up</h2>
+                </a>
 
-                <li class="tabs navBtn">
-                    <a href="#">
-                        <h2>Restock Watch</h2>
-                    </a>
-                </li>
-            </ul>
+                <a href="#">
+                    <h2>Past Release</h2>
+                </a>
+
+                <a href="#">
+                    <h2>Restock Watch</h2>
+                </a>
+
+            </div>
         </div>
-    </header>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        </nav>
+    </div>
 
-    <div class="mainBody col-md-10 container">
-        <div class="addBar">
+    <div class="mainBody ">
+        <div class="addBar container">
             <div class="row">
                 <div class="col-md-3">
-                    Product ID
-                    <input type="text" id="productId" class="form-control" placeholder="SKU / Product ID (Example: B42746)" required="">
+                    <h6>Product ID</h6>
+                    <input name="ID" type="text" id="productId" class="form-control" placeholder="SKU (Example: AJ2998-001)" required="">
                 </div>
 
                 <div class="col-md-3">
-                    Stock region
+                    <h6>Stock region</h6>
                     <select name="region" id="stockRegion" class="form-control" required="">
                         <option value="United States">United States</option>
                         <option value="Canada">Canada</option>
@@ -58,39 +61,51 @@
                 </div>
 
                 <div class="col-md-4">
-                    Client ID
+                    <h6>Client ID</h6>
                     <input type="text" id="clientId" placeholder="Client ID" class="form-control">
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-lg-2">
                     <br>
-                    <input type="submit" class="form-control">
+                    <input action="{{ url_for('prosess') }}" method="post" class="btn" type="submit" value="Submit">
                 </div>
 
             </div>
+            <hr>
         </div>
 
-        <hr>
+
         <div class="sneakerList container">
 
             <div class="container websitBox">
-                <h4>Nike.nom</h4>
-                <div class="listCard">
+                <h5>Nike.com</h5>
+                <div class="listCard container">
 
-                    <div class="card">
-                        <img src="#" height="200" width="200">
+                    <div class="card row ">
 
-                        <div class="card">
-                            <h5>Sneaker name </h5>
-                            <h6>Sneaker Colorway</h6>
+                        <div class="cardContent cardLeft">
+                            <img src="#" height="200" width="200">
+                        </div>
+
+                        <div class="cardRight">
+                            <div class="cardContent">
+                                <h4>Sneaker name </h4>
+                                <h6>LAUNCH: FRIDAY, 9 MARCH 2018 - 3:00 EST</h6>
+                                <p>Colorway - Product ID</p>
+                            </div>
+
+                            <div class="cardContent">
+                                <h5>Count down timer </h5>
+                            </div>
                         </div>
 
                     </div>
                 </div>
             </div>
-
-
         </div>
+
+
+    </div>
     </div>
 
 </body>

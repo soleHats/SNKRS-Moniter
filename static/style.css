@@ -7,6 +7,10 @@ h1 {
     font-family: "Lato", sans-serif;
 }
 
+img {
+    margin: 1em;
+}
+
 .navBar {
     float: center;
     align-content: center;
@@ -19,8 +23,9 @@ h1 {
     padding: 1em;
 }
 
-.card {
-    display: inline;
+.cardContent {
+    display: block;
+    width: 250px;
 }
 
 .mainBody {
@@ -29,6 +34,24 @@ h1 {
     display: block;
 }
 
-.listCard {
-    display: inline;
+.card {
+    border-radius: 50em;
+    align-items: baseline;
+}
+
+.addBar {
+    align-content: center;
+}
+
+h2 {
+    font-size: 4em;
+    color: #ffffff;
+}
+
+.cardLeft {
+    float: left;
+}
+
+.cardRight {
+    float: right;
 }
