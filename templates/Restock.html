@@ -43,33 +43,34 @@
 
     <div class="mainBody ">
         <div class="addBar container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h6>Product ID</h6>
-                    <input name="ID" type="text" id="productId" class="form-control" placeholder="SKU (Example: AJ2998-001)" required="">
-                </div>
+            <div>
+                <form class="row" action="{{ url_for('prosess') }}" method="post">
 
-                <div class="col-md-3">
-                    <h6>Stock region</h6>
-                    <select name="region" id="stockRegion" class="form-control" required="">
-                        <option value="United States">United States</option>
-                        <option value="Canada">Canada</option>
-                        <option value="Australia / New Zealand">Australia / New Zealand</option>
-                        <option value="United Kingdom">United Kingdom</option
-                        ><option value="Europe">Europe</option>
-                    </select>
-                </div>
+                    <div class="col-md-3">
+                        <h6>Product ID</h6>
+                        <input name="ID" type="text" id="productId" class="form-control" placeholder="SKU (Example: AJ2998-001)" required="">
+                    </div>
 
-                <div class="col-md-4">
-                    <h6>Client ID</h6>
-                    <input type="text" id="clientId" placeholder="Client ID" class="form-control">
-                </div>
+                    <div class="col-md-3">
+                        <h6>Stock region</h6>
+                        <select name="region" id="stockRegion" class="form-control" required="">
+                            <option value="United States">United States</option>
+                            <option value="Canada">Canada</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Europe">Europe</option>
+                        </select>
+                    </div>
 
-                <div class="col-lg-2">
-                    <br>
-                    <input action="{{ url_for('prosess') }}" method="post" class="btn" type="submit" value="Submit">
-                </div>
+                    <div class="col-md-4">
+                        <h6>Client ID</h6>
+                        <input type="text" id="clientId" placeholder="Client ID" class="form-control">
+                    </div>
 
+                    <div class="col-lg-2">
+                        <br>
+                        <input class="btn" type="submit" value="Submit">
+                    </div>
+                </form>
             </div>
             <hr>
         </div>
