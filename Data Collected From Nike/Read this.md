@@ -4,12 +4,16 @@ Through my research of Nike's website I have found that Nike uses two different 
 
 ## Webpage 1 - New Json Formate
 
-# Todo List
+
+
+### Todo List
 - [ ] try to locate the Client ID within the json
 - [ ] Locate the indacation of the sizes in stock
 
 ## Webpage 2 - Old Json Formate
 
-# Todo List
+
+
+### Todo List
 - [ ] try to locate the Client ID within the json
 - [x] Locate the indacation of the sizes in stock
