@@ -9,12 +9,13 @@ class NikeShoe:
 		self.r = requests.get(self.URL).content
 		self.lxml = BeautifulSoup(self.r, "lxml")
 		self.j = self.lxml.find("script", {"id": "product-data"}).string
+		print(self.j)
+        
 
 	def GetStock(self):
 
 		self.sizesinStock = []
-
-		self.sizesBox = self.j['skuContainer']['productSkus']
+		self.sizesBox = json.loads(self.j)['skuContainer']['productSkus']
 		for size in self.sizesBox:
 			if size['inStock'] == True:
 				sizeNum = size['displaySize']
@@ -34,17 +35,18 @@ class NikeShoe:
 
 
 	def GetPrice(self):
-		return self.lxml.find(class_="js-pdpLocalPrice").string
+		self.Price = json.loads(self.j)['rawPrice']
+		return self.Price
 
 
 	def GetName(self):
-		self.name = self.lxml.find(class_="productTitlee")  # .string
+		self.name = json.loads(self.j)['productTitle']
 		return self.name
 
 
 	def GetColorWay(self):
-		return self.lxml.find(class_="colorText").string
+		self.CW = json.loads(self.j)['colorDescription']
+		return
 
-s = NikeShoe("302370-021")
-print(s.GetName())
-
+ss1 = NikeShoe("302370-021")
+print(ss1.GetName())
