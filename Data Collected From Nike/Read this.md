@@ -4,6 +4,7 @@ Through my research of Nike's website I have found that Nike uses two different 
 
 ## Webpage 1 - New Json Formate
 
+![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.19.28%20PM.png)
 
 
 ### Todo List
@@ -12,6 +13,7 @@ Through my research of Nike's website I have found that Nike uses two different 
 
 ## Webpage 2 - Old Json Formate
 
+![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.19.55%20PM.png)
 
 
 ### Todo List
