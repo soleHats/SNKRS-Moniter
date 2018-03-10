@@ -9,7 +9,17 @@ Through my research of Nike's website I have found that Nike uses two different 
 To find the JSON within this formate of the Nike page, input/use:
 
 ```python
-#Still working on this 
+import requests
+from bs4 import BeautifulSoup
+import json
+
+StyleCode = raw_input("What is the SKU?")
+
+URL = 'https://store.nike.com/us/en_us/pw/n/1j7?sl=' + str(StyleCode)
+r = requests.get(URL).content
+lxml = BeautifulSoup(r, "lxml")
+j = lxml.find_all('script')[0]
+print(j)
 ```
 
 ### Todo List
