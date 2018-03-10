@@ -1,484 +1,458 @@
 {
-    "productId": "11970831",
-    "productGroupId": "11420625",
-    "displayName": "Air Jordan 9 Retro Men's Shoe",
-    "productTitle": "Air Jordan 9 Retro",
-    "productSubTitle": "Men's Shoe",
-    "pageTitle": "Air Jordan 9 Retro Men's Shoe. Nike.com",
-    "catalogId": "1",
-    "productSlug": "air-jordan-9-retro-mens-shoe",
-    "url": "https://store.nike.com/us/en_us/pd/air-jordan-9-retro-mens-shoe/pid-11970831/pgid-11420625",
-    "startDate": 1518274800000,
-    "builderUrl": null,
-    "frameUtilUrl": null,
-    "hardLaunch": true,
-    "reviews": null,
-    "productReviewsUrl": null,
-    "employeeDiscountAvailable": true,
-    "onSale": false,
-    "localPrice": "$190",
-    "overriddenLocalPrice": null,
-    "employeePrice": "$114",
-    "rawEmployeePrice": null,
-    "overriddenEmployeePrice": "$190",
-    "rawPrice": "190.0",
-    "currencyCode": "USD",
-    "styleNumber": "302370",
-    "colorNumber": "021",
-    "colorDescription": "Black/Summit White/Metallic Gold/Black",
-    "swatchColorHex": null,
-    "inStock": true,
-    "preOrder": false,
-    "quantityLimit": 1,
-    "nflJersey": false,
-    "nbaJersey": false,
-    "nflPdpModel": null,
-    "accessCode": false,
-    "accessCodeValue": null,
-    "accessCodeCustomMessage": null,
-    "handle": null,
-    "lockedSkuId": null,
-    "unlocked": false,
-    "notifyMe": false,
-    "notifyMeCustomMessage": null,
-    "showBuyingTools": true,
-    "showSizeAndFitLink": true,
-    "showYouthSizingCalculator": false,
-    "sizeAndFitGuideUrl": "mens-shoe-sizing-chart",
-    "widths": null,
-    "imagesHeroAda": [
-        "https://images.nike.com/is/image/DotCom/PDP_P/302370_021_A_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images2.nike.com/is/image/DotCom/PDP_P/302370_021_B_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images3.nike.com/is/image/DotCom/PDP_P/302370_021_C_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images.nike.com/is/image/DotCom/PDP_P/302370_021_D_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images2.nike.com/is/image/DotCom/PDP_P/302370_021_E_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images3.nike.com/is/image/DotCom/PDP_P/302370_021_F_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha"
+    "productId":"12136865",
+    "productGroupId":"12412116",
+    "displayName":"Air Jordan 13 Retro Men's Shoe",
+    "productTitle":"Air Jordan 13 Retro",
+    "productSubTitle":"Men's Shoe",
+    "pageTitle":"Air Jordan 13 Retro Men's Shoe. Nike.com",
+    "catalogId":"100701",
+    "productSlug":"air-jordan-13-retro-mens-shoe",
+    "url":"https://store.nike.com/us/en_us/pd/air-jordan-13-retro-mens-shoe/pid-12136865/pgid-12412116",
+    "startDate":1516460400000,
+    "builderUrl":null,
+    "frameUtilUrl":null,
+    "hardLaunch":true,
+    "reviews":null,
+    "productReviewsUrl":null,
+    "employeeDiscountAvailable":true,
+    "onSale":true,
+    "localPrice":"$160.97",
+    "overriddenLocalPrice":"$190",
+    "employeePrice":"$96.58",
+    "rawEmployeePrice":null,
+    "overriddenEmployeePrice":"$160.97",
+    "rawPrice":"160.97",
+    "currencyCode":"USD",
+    "styleNumber":"414571",
+    "colorNumber":"006",
+    "colorDescription":"Black/Light Olive/White/True Red",
+    "swatchColorHex":null,
+    "inStock":true,
+    "preOrder":false,
+    "quantityLimit":1,
+    "nflJersey":false,
+    "nbaJersey":false,
+    "nflPdpModel":null,
+    "accessCode":false,
+    "accessCodeValue":null,
+    "accessCodeCustomMessage":null,
+    "handle":null,
+    "lockedSkuId":null,
+    "unlocked":false,
+    "notifyMe":false,
+    "notifyMeCustomMessage":null,
+    "showBuyingTools":true,
+    "showSizeAndFitLink":true,
+    "showYouthSizingCalculator":false,
+    "sizeAndFitGuideUrl":"mens-shoe-sizing-chart",
+    "widths":null,
+    "imagesHeroAda":[
+        "https://images.nike.com/is/image/DotCom/PDP_P/414571_006_A_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images2.nike.com/is/image/DotCom/PDP_P/414571_006_B_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images3.nike.com/is/image/DotCom/PDP_P/414571_006_C_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images.nike.com/is/image/DotCom/PDP_P/414571_006_D_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images2.nike.com/is/image/DotCom/PDP_P/414571_006_E_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images3.nike.com/is/image/DotCom/PDP_P/414571_006_F_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha"
     ],
-    "imagesHeroSmall": [
-        "https://images.nike.com/is/image/DotCom/PDP_HERO_S/302370_021_A_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_HERO_S/302370_021_B_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_HERO_S/302370_021_C_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images.nike.com/is/image/DotCom/PDP_HERO_S/302370_021_D_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_HERO_S/302370_021_E_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_HERO_S/302370_021_F_PREM/air-jordan-9-retro-mens-shoe.jpg"
+    "imagesHeroSmall":[
+        "https://images.nike.com/is/image/DotCom/PDP_HERO_S/414571_006_A_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_HERO_S/414571_006_B_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_HERO_S/414571_006_C_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images.nike.com/is/image/DotCom/PDP_HERO_S/414571_006_D_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_HERO_S/414571_006_E_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_HERO_S/414571_006_F_PREM/air-jordan-13-retro-mens-shoe.jpg"
     ],
-    "imagesHeroMedium": [
-        "https://images.nike.com/is/image/DotCom/PDP_HERO_M/302370_021_A_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_HERO_M/302370_021_B_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_HERO_M/302370_021_C_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images.nike.com/is/image/DotCom/PDP_HERO_M/302370_021_D_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_HERO_M/302370_021_E_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_HERO_M/302370_021_F_PREM/air-jordan-9-retro-mens-shoe.jpg"
+    "imagesHeroMedium":[
+        "https://images.nike.com/is/image/DotCom/PDP_HERO_M/414571_006_A_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_HERO_M/414571_006_B_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_HERO_M/414571_006_C_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images.nike.com/is/image/DotCom/PDP_HERO_M/414571_006_D_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_HERO_M/414571_006_E_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_HERO_M/414571_006_F_PREM/air-jordan-13-retro-mens-shoe.jpg"
     ],
-    "imagesHeroLarge": [
-        "https://images.nike.com/is/image/DotCom/PDP_HERO/302370_021_A_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_HERO/302370_021_B_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_HERO/302370_021_C_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images.nike.com/is/image/DotCom/PDP_HERO/302370_021_D_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_HERO/302370_021_E_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_HERO/302370_021_F_PREM/air-jordan-9-retro-mens-shoe.jpg"
+    "imagesHeroLarge":[
+        "https://images.nike.com/is/image/DotCom/PDP_HERO/414571_006_A_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_HERO/414571_006_B_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_HERO/414571_006_C_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images.nike.com/is/image/DotCom/PDP_HERO/414571_006_D_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_HERO/414571_006_E_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_HERO/414571_006_F_PREM/air-jordan-13-retro-mens-shoe.jpg"
     ],
-    "imagesHeroRetina": null,
-    "imagesHeroZoom": [
-        "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/302370_021_A_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_HERO_ZOOM/302370_021_B_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_HERO_ZOOM/302370_021_C_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/302370_021_D_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_HERO_ZOOM/302370_021_E_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_HERO_ZOOM/302370_021_F_PREM/air-jordan-9-retro-mens-shoe.jpg"
+    "imagesHeroRetina":null,
+    "imagesHeroZoom":[
+        "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/414571_006_A_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_HERO_ZOOM/414571_006_B_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_HERO_ZOOM/414571_006_C_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/414571_006_D_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_HERO_ZOOM/414571_006_E_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_HERO_ZOOM/414571_006_F_PREM/air-jordan-13-retro-mens-shoe.jpg"
     ],
-    "imagesThumbnail": [
-        "https://images.nike.com/is/image/DotCom/PDP_THUMB/302370_021_A_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_THUMB/302370_021_B_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_THUMB/302370_021_C_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images.nike.com/is/image/DotCom/PDP_THUMB/302370_021_D_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images2.nike.com/is/image/DotCom/PDP_THUMB/302370_021_E_PREM/air-jordan-9-retro-mens-shoe.jpg",
-        "https://images3.nike.com/is/image/DotCom/PDP_THUMB/302370_021_F_PREM/air-jordan-9-retro-mens-shoe.jpg"
+    "imagesThumbnail":[
+        "https://images.nike.com/is/image/DotCom/PDP_THUMB/414571_006_A_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_THUMB/414571_006_B_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_THUMB/414571_006_C_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images.nike.com/is/image/DotCom/PDP_THUMB/414571_006_D_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images2.nike.com/is/image/DotCom/PDP_THUMB/414571_006_E_PREM/air-jordan-13-retro-mens-shoe.jpg",
+        "https://images3.nike.com/is/image/DotCom/PDP_THUMB/414571_006_F_PREM/air-jordan-13-retro-mens-shoe.jpg"
     ],
-    "imagesThumbnailAda": [
-        "https://images.nike.com/is/image/DotCom/PHN_PS/302370_021_A_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images2.nike.com/is/image/DotCom/PHN_PS/302370_021_B_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images3.nike.com/is/image/DotCom/PHN_PS/302370_021_C_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images.nike.com/is/image/DotCom/PHN_PS/302370_021_D_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images2.nike.com/is/image/DotCom/PHN_PS/302370_021_E_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha",
-        "https://images3.nike.com/is/image/DotCom/PHN_PS/302370_021_F_PREM/air-jordan-9-retro-mens-shoe.png?fmt=png-alpha"
+    "imagesThumbnailAda":[
+        "https://images.nike.com/is/image/DotCom/PHN_PS/414571_006_A_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images2.nike.com/is/image/DotCom/PHN_PS/414571_006_B_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images3.nike.com/is/image/DotCom/PHN_PS/414571_006_C_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images.nike.com/is/image/DotCom/PHN_PS/414571_006_D_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images2.nike.com/is/image/DotCom/PHN_PS/414571_006_E_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha",
+        "https://images3.nike.com/is/image/DotCom/PHN_PS/414571_006_F_PREM/air-jordan-13-retro-mens-shoe.png?fmt=png-alpha"
     ],
-    "imagesThumbnailRetina": null,
-    "salesChannel": null,
-    "imagesPrebuilds": null,
-    "prebuilds": null,
-    "prebuildId": null,
-    "imagesCopySmall": "https://images.nike.com/is/image/DotCom/PDP_COPY_S/302370_021/air-jordan-9-retro-mens-shoe.jpg",
-    "imagesCopyLarge": "https://images.nike.com/is/image/DotCom/PDP_COPY/302370_021/air-jordan-9-retro-mens-shoe.jpg",
-    "chat": {
-        "line1": null,
-        "line2": null,
-        "buttonText": null,
-        "buttonUrl": null,
-        "brand": "Jordan",
-        "primarySport": "Lifestyle",
-        "needleChat": true,
-        "productId": "302370-021",
-        "productPrice": 190,
-        "categoryId": "Lifestyle Footwear",
-        "inviteContext": "Lifestyle",
-        "gender": "1",
-        "geo": "US",
-        "jerseyType": null,
-        "langVariant": "en_US",
-        "onClearance": false,
-        "clearancePrice": 0,
-        "employeePrice": 114
+    "imagesThumbnailRetina":null,
+    "salesChannel":null,
+    "imagesPrebuilds":null,
+    "prebuilds":null,
+    "prebuildId":null,
+    "imagesCopySmall":"https://images.nike.com/is/image/DotCom/PDP_COPY_S/414571_006/air-jordan-13-retro-mens-shoe.jpg",
+    "imagesCopyLarge":"https://images.nike.com/is/image/DotCom/PDP_COPY/414571_006/air-jordan-13-retro-mens-shoe.jpg",
+    "chat":{
+        "line1":null,
+        "line2":null,
+        "buttonText":null,
+        "buttonUrl":null,
+        "brand":"Jordan",
+        "primarySport":"Lifestyle",
+        "needleChat":true,
+        "productId":"414571-006",
+        "productPrice":160.97,
+        "categoryId":"Lifestyle Footwear",
+        "inviteContext":"Lifestyle",
+        "gender":"1",
+        "geo":"US",
+        "jerseyType":null,
+        "langVariant":"en_US",
+        "onClearance":true,
+        "clearancePrice":160.97,
+        "employeePrice":96.58
     },
-    "taxDisclaimer": false,
-    "showRecyclingMessage": false,
-    "socialButtons": [{
-            "socialNetwork": "facebook",
-            "action": "like",
-            "dataAttributes": {
-                "url": "https://store.nike.com/us/en_us/pd/air-jordan-9-retro-mens-shoe/pid-11970831/pgid-11420625?cp=usns_soc_101511_fbshare",
-                "type": "static"
+    "taxDisclaimer":false,
+    "showRecyclingMessage":false,
+    "socialButtons":[
+        {
+            "socialNetwork":"facebook",
+            "action":"like",
+            "dataAttributes":{
+                "type":"static",
+                "url":"https://store.nike.com/us/en_us/pd/air-jordan-13-retro-mens-shoe/pid-12136865/pgid-12412116?cp=usns_soc_101511_fbshare"
             }
         },
         {
-            "socialNetwork": "twitter",
-            "action": "tweet",
-            "dataAttributes": {
-                "url": "https://store.nike.com/us/en_us/pd/air-jordan-9-retro-mens-shoe/pid-11970831/pgid-11420625?cp=usns_soc_101511_twitshare",
-                "text": "Air Jordan 9 Retro Men's Shoe",
-                "type": "static"
+            "socialNetwork":"twitter",
+            "action":"tweet",
+            "dataAttributes":{
+                "type":"static",
+                "text":"Air Jordan 13 Retro Men's Shoe",
+                "url":"https://store.nike.com/us/en_us/pd/air-jordan-13-retro-mens-shoe/pid-12136865/pgid-12412116?cp=usns_soc_101511_twitshare"
             }
         },
         {
-            "socialNetwork": "pinterest",
-            "action": "pinit",
-            "dataAttributes": {
-                "url": "http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fstore.nike.com%2Fus%2Fen_us%2Fpd%2Fair-jordan-9-retro-mens-shoe%2Fpid-11970831%2Fpgid-11420625%3Fcp%3Dusns_soc_042213_pinshare&media=https%3A%2F%2Fimages.nike.com%2Fis%2Fimage%2FDotCom%2FTHN_PS%2F302370_021%2Fair-jordan-9-retro-mens-shoe.jpg%3Fhei%3D300%26wid%3D400%26fmt%3Dpng&description=Air+Jordan+9+Retro+Men%27s+Shoe",
-                "pic": "https://images.nike.com/is/image/DotCom/THN_PS/302370_021/air-jordan-9-retro-mens-shoe.jpg?hei=300&wid=400&fmt=png",
-                "text": "Air Jordan 9 Retro Men's Shoe",
-                "type": "static"
+            "socialNetwork":"pinterest",
+            "action":"pinit",
+            "dataAttributes":{
+                "type":"static",
+                "pic":"https://images.nike.com/is/image/DotCom/THN_PS/414571_006/air-jordan-13-retro-mens-shoe.jpg?hei=300&wid=400&fmt=png",
+                "text":"Air Jordan 13 Retro Men's Shoe",
+                "url":"http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fstore.nike.com%2Fus%2Fen_us%2Fpd%2Fair-jordan-13-retro-mens-shoe%2Fpid-12136865%2Fpgid-12412116%3Fcp%3Dusns_soc_042213_pinshare&media=https%3A%2F%2Fimages.nike.com%2Fis%2Fimage%2FDotCom%2FTHN_PS%2F414571_006%2Fair-jordan-13-retro-mens-shoe.jpg%3Fhei%3D300%26wid%3D400%26fmt%3Dpng&description=Air+Jordan+13+Retro+Men%27s+Shoe"
             }
         }
     ],
-    "emailButton": null,
-    "inStockColorways": [{
-        "productId": "11970831",
-        "productGroupId": "11420625",
-        "styleNumber": "302370",
-        "url": "https://store.nike.com/us/en_us/pd/air-jordan-9-retro-mens-shoe/pid-11970831/pgid-11420625",
-        "salesChannel": null,
-        "imageUrl": "https://images.nike.com/is/image/DotCom/PDP_THUMB/302370_021/air-jordan-9-retro-mens-shoe.jpg",
-        "imageUrlRetina": "https://images.nike.com/is/image/DotCom/PDP_THUMB_RETINA/302370_021/air-jordan-9-retro-mens-shoe.jpg",
-        "swatchColorHex": null,
-        "colorNumber": "021",
-        "simpleColor": "Black",
-        "colorDescription": "Black/Summit White/Metallic Gold/Black",
-        "status": "IN_STOCK",
-        "startDate": 1518274800000,
-        "cloudPdp": false,
-        "mainColorway": true,
-        "selected": true,
-        "message": null,
-        "comparatorChain": {
-            "locked": false
+    "emailButton":null,
+    "inStockColorways":[
+        {
+            "productId":"12136865",
+            "productGroupId":"12412116",
+            "styleNumber":"414571",
+            "url":"https://store.nike.com/us/en_us/pd/air-jordan-13-retro-mens-shoe/pid-12136865/pgid-12412116",
+            "salesChannel":null,
+            "imageUrl":"https://images.nike.com/is/image/DotCom/PDP_THUMB/414571_006/air-jordan-13-retro-mens-shoe.jpg",
+            "imageUrlRetina":"https://images.nike.com/is/image/DotCom/PDP_THUMB_RETINA/414571_006/air-jordan-13-retro-mens-shoe.jpg",
+            "swatchColorHex":null,
+            "colorNumber":"006",
+            "simpleColor":"Black",
+            "colorDescription":"Black/Light Olive/White/True Red",
+            "status":"IN_STOCK",
+            "startDate":1516460400000,
+            "cloudPdp":false,
+            "mainColorway":true,
+            "selected":true,
+            "message":null,
+            "comparatorChain":{
+                "locked":false
+            }
+        },
+        {
+            "productId":"11825673",
+            "productGroupId":"12412116",
+            "styleNumber":"414571",
+            "url":"https://www.nike.com/t/air-jordan-13-retro-mens-shoe/414571-042",
+            "salesChannel":null,
+            "imageUrl":"https://images.nike.com/is/image/DotCom/PDP_THUMB/414571_042/air-jordan-13-retro-mens-shoe.jpg",
+            "imageUrlRetina":"https://images.nike.com/is/image/DotCom/PDP_THUMB_RETINA/414571_042/air-jordan-13-retro-mens-shoe.jpg",
+            "swatchColorHex":null,
+            "colorNumber":"042",
+            "simpleColor":"Black",
+            "colorDescription":"Black/Altitude Green",
+            "status":"IN_STOCK",
+            "startDate":1513868400000,
+            "cloudPdp":true,
+            "mainColorway":false,
+            "selected":false,
+            "message":null,
+            "comparatorChain":{
+                "locked":false
+            }
         }
-    }],
-    "outOfStockColorways": null,
-    "comingSoonColorways": null,
-    "preOrderColorways": null,
-    "prebuildCTA": null,
-    "skuContainer": {
-        "id": "11970831",
-        "displaySizeType": null,
-        "displaySizeTypeLabel": "",
-        "productSkus": [{
-                "id": "21126426",
-                "sizeDescription": "7",
-                "inStock": false,
-                "displaySize": "7",
-                "sku": "21126426"
+    ],
+    "outOfStockColorways":null,
+    "comingSoonColorways":null,
+    "preOrderColorways":null,
+    "prebuildCTA":null,
+    "skuContainer":{
+        "id":"12136865",
+        "displaySizeType":null,
+        "displaySizeTypeLabel":"",
+        "productSkus":[
+            {
+                "id":"21164189",
+                "sizeDescription":"7",
+                "inStock":true,
+                "displaySize":"7",
+                "sku":"21164189"
             },
             {
-                "id": "21126427",
-                "sizeDescription": "7.5",
-                "inStock": false,
-                "displaySize": "7.5",
-                "sku": "21126427"
+                "id":"21164188",
+                "sizeDescription":"7.5",
+                "inStock":true,
+                "displaySize":"7.5",
+                "sku":"21164188"
             },
             {
-                "id": "21126428",
-                "sizeDescription": "8",
-                "inStock": false,
-                "displaySize": "8",
-                "sku": "21126428"
+                "id":"21164187",
+                "sizeDescription":"8",
+                "inStock":true,
+                "displaySize":"8",
+                "sku":"21164187"
             },
             {
-                "id": "21126429",
-                "sizeDescription": "8.5",
-                "inStock": true,
-                "displaySize": "8.5",
-                "sku": "21126429"
+                "id":"21164186",
+                "sizeDescription":"8.5",
+                "inStock":true,
+                "displaySize":"8.5",
+                "sku":"21164186"
             },
             {
-                "id": "21126430",
-                "sizeDescription": "9",
-                "inStock": true,
-                "displaySize": "9",
-                "sku": "21126430"
+                "id":"21164181",
+                "sizeDescription":"9",
+                "inStock":true,
+                "displaySize":"9",
+                "sku":"21164181"
             },
             {
-                "id": "21126431",
-                "sizeDescription": "9.5",
-                "inStock": true,
-                "displaySize": "9.5",
-                "sku": "21126431"
+                "id":"21164185",
+                "sizeDescription":"9.5",
+                "inStock":true,
+                "displaySize":"9.5",
+                "sku":"21164185"
             },
             {
-                "id": "21126432",
-                "sizeDescription": "10",
-                "inStock": true,
-                "displaySize": "10",
-                "sku": "21126432"
+                "id":"21164180",
+                "sizeDescription":"10",
+                "inStock":true,
+                "displaySize":"10",
+                "sku":"21164180"
             },
             {
-                "id": "21126433",
-                "sizeDescription": "10.5",
-                "inStock": true,
-                "displaySize": "10.5",
-                "sku": "21126433"
+                "id":"21164197",
+                "sizeDescription":"10.5",
+                "inStock":true,
+                "displaySize":"10.5",
+                "sku":"21164197"
             },
             {
-                "id": "21126207",
-                "sizeDescription": "11",
-                "inStock": true,
-                "displaySize": "11",
-                "sku": "21126207"
+                "id":"21164196",
+                "sizeDescription":"11",
+                "inStock":true,
+                "displaySize":"11",
+                "sku":"21164196"
             },
             {
-                "id": "21126508",
-                "sizeDescription": "11.5",
-                "inStock": true,
-                "displaySize": "11.5",
-                "sku": "21126508"
+                "id":"21164195",
+                "sizeDescription":"11.5",
+                "inStock":true,
+                "displaySize":"11.5",
+                "sku":"21164195"
             },
             {
-                "id": "21126509",
-                "sizeDescription": "12",
-                "inStock": true,
-                "displaySize": "12",
-                "sku": "21126509"
+                "id":"21164194",
+                "sizeDescription":"12",
+                "inStock":true,
+                "displaySize":"12",
+                "sku":"21164194"
             },
             {
-                "id": "21126510",
-                "sizeDescription": "12.5",
-                "inStock": false,
-                "displaySize": "12.5",
-                "sku": "21126510"
+                "id":"21164183",
+                "sizeDescription":"12.5",
+                "inStock":true,
+                "displaySize":"12.5",
+                "sku":"21164183"
             },
             {
-                "id": "21126511",
-                "sizeDescription": "13",
-                "inStock": true,
-                "displaySize": "13",
-                "sku": "21126511"
+                "id":"21164193",
+                "sizeDescription":"13",
+                "inStock":true,
+                "displaySize":"13",
+                "sku":"21164193"
             },
             {
-                "id": "21126512",
-                "sizeDescription": "14",
-                "inStock": true,
-                "displaySize": "14",
-                "sku": "21126512"
+                "id":"21164192",
+                "sizeDescription":"14",
+                "inStock":true,
+                "displaySize":"14",
+                "sku":"21164192"
             },
             {
-                "id": "21126513",
-                "sizeDescription": "15",
-                "inStock": false,
-                "displaySize": "15",
-                "sku": "21126513"
+                "id":"21164191",
+                "sizeDescription":"15",
+                "inStock":true,
+                "displaySize":"15",
+                "sku":"21164191"
             },
             {
-                "id": "21126514",
-                "sizeDescription": "16",
-                "inStock": false,
-                "displaySize": "16",
-                "sku": "21126514"
+                "id":"21164184",
+                "sizeDescription":"16",
+                "inStock":true,
+                "displaySize":"16",
+                "sku":"21164184"
             },
             {
-                "id": "21126515",
-                "sizeDescription": "17",
-                "inStock": false,
-                "displaySize": "17",
-                "sku": "21126515"
+                "id":"21164190",
+                "sizeDescription":"17",
+                "inStock":true,
+                "displaySize":"17",
+                "sku":"21164190"
             },
             {
-                "id": "21126516",
-                "sizeDescription": "18",
-                "inStock": false,
-                "displaySize": "18",
-                "sku": "21126516"
+                "id":"21164182",
+                "sizeDescription":"18",
+                "inStock":true,
+                "displaySize":"18",
+                "sku":"21164182"
             }
         ],
-        "inStock": true,
-        "multiSku": true,
-        "searchString": "11970831"
+        "inStock":true,
+        "searchString":"12136865",
+        "multiSku":true
     },
-    "legacySizeFitChart": null,
-    "showOutOfStockMessage": false,
-    "showComingSoonForOutOfStock": false,
-    "showComingSoonMessage": false,
-    "showPreOrderMessage": false,
-    "outOfStockMessage": null,
-    "comingSoonMessage": null,
-    "preOrderMessage": null,
-    "standardPreOrderMessage": "Order now and be one of the first to get it. Pre-orders ship {1,date,MMMMM d}.",
-    "colorwayGeneralMessage": null,
-    "showColorWays": true,
-    "trackingData": {
-        "product": {
-            "productId": "11970831",
-            "sku": null,
-            "name": "Air Jordan 9 Retro Men's Shoe",
-            "category": "Footwear",
-            "inStock": true,
-            "price": 190,
-            "onSale": false,
-            "qty": null,
-            "siteId": null,
-            "rating": -1,
-            "ratingCount": 0,
-            "isNikeId": false,
-            "gender": "1",
-            "league": null,
-            "pathName": null,
-            "isLocked": false,
-            "unlocalizedName": "AIR JORDAN 9 RETRO",
-            "preBuildId": null,
-            "loadType": null,
-            "preOrder": false,
-            "comingSoon": false
+    "legacySizeFitChart":null,
+    "showOutOfStockMessage":false,
+    "showComingSoonForOutOfStock":false,
+    "showComingSoonMessage":false,
+    "showPreOrderMessage":false,
+    "outOfStockMessage":null,
+    "comingSoonMessage":null,
+    "preOrderMessage":null,
+    "standardPreOrderMessage":"Order now and be one of the first to get it. Pre-orders ship {1,date,MMMMM d}.",
+    "colorwayGeneralMessage":null,
+    "showColorWays":true,
+    "trackingData":{
+        "product":{
+            "productId":"12136865",
+            "sku":null,
+            "name":"Air Jordan 13 Retro Men's Shoe",
+            "category":"Footwear",
+            "inStock":true,
+            "price":160.97,
+            "onSale":true,
+            "qty":null,
+            "siteId":null,
+            "rating":-1,
+            "ratingCount":0,
+            "isNikeId":false,
+            "gender":"1",
+            "league":null,
+            "pathName":null,
+            "isLocked":false,
+            "unlocalizedName":"AIR JORDAN 13 RETRO",
+            "preBuildId":null,
+            "loadType":null,
+            "preOrder":false,
+            "comingSoon":false
         },
-        "inlineProductIds": [
-            "11970831"
+        "inlineProductIds":[
+            "12136865",
+            "11825673"
         ],
-        "nikeIdProductIds": [
+        "nikeIdProductIds":[
 
         ],
-        "sizeRun": "7:n|7.5:n|8:n|8.5:y|9:y|9.5:y|10:y|10.5:y|11:y|11.5:y|12:y|12.5:n|13:y|14:y|15:n|16:n|17:n|18:n",
-        "primarySportName": "Lifestyle",
-        "heatLevel": "medium",
-        "hasImageBadge": false,
-        "hasPrebuildCTA": false,
-        "clearanceRollup": false
+        "sizeRun":"7:y|7.5:y|8:y|8.5:y|9:y|9.5:y|10:y|10.5:y|11:y|11.5:y|12:y|12.5:y|13:y|14:y|15:y|16:y|17:y|18:y",
+        "primarySportName":"Lifestyle",
+        "heatLevel":"high",
+        "hasImageBadge":false,
+        "hasPrebuildCTA":false,
+        "clearanceRollup":false
     },
-    "comingSoonLabel": "Coming Soon",
-    "customSizeLabel": null,
-    "jerseyIdSku": null,
-    "jerseyIdPath": null,
-    "comingSoonCountdownClock": false,
-    "productType": "Footwear",
-    "footwear": true,
-    "apparel": false,
-    "primarySport": "Lifestyle",
-    "productGroupIsPersonalizable": false,
-    "upsellAvailable": false,
-    "upsell": null,
-    "cgc": null,
-    "previewTime": 0,
-    "content": "<div class=\"pi-tier3\"><div class=\"pi-pdpmainbody\"><p><b>RETROED AND REVERED</b></p><br><p>The Air Jordan 9 Retro Men's Shoe honors the 1993 original with the superior cushioning and comfort fans have come to expect from signature Jordan shoes.</p><br><p><b>Product Details</b></p><li>Genuine leather, synthetic leather or textile upper depending on color</li><li>Foam midsole with Air units in heel and forefoot</li><li>Rubber outsole</li></div></div>",
-    "summaryVideo": null,
-    "techSpecs": null,
-    "countryOfOrigin": null,
-    "desktopBazaarVoiceConfiguration": {
-        "apiUrl": "https://nike.ugc.bazaarvoice.com/static/9191-en_us/bvapi.js",
-        "submissionUrl": "https://store.nike.com/us/en_us/pd/air-jordan-9-retro-mens-shoe/pid-11970831/pgid-11420625?review=true",
-        "productId": "302370",
-        "displayCode": "",
-        "productWidth": "REGULAR",
-        "showSubmit": "false",
-        "attributes": null,
-        "showReviewSubmit": false
+    "comingSoonLabel":"Coming Soon",
+    "customSizeLabel":null,
+    "jerseyIdSku":null,
+    "jerseyIdPath":null,
+    "comingSoonCountdownClock":false,
+    "productType":"Footwear",
+    "footwear":true,
+    "apparel":false,
+    "primarySport":"Lifestyle",
+    "productGroupIsPersonalizable":false,
+    "upsellAvailable":false,
+    "upsell":null,
+    "cgc":null,
+    "previewTime":0,
+    "content":"<div class=\"pi-tier3\"><div class=\"pi-pdpmainbody\"><p><b>A CLASSIC, REINVENTED.</b></p><br><p>The Air Jordan 13 Retro Men's Shoe celebrates the original with court-inspired cushioning and classic design details.&#160;</p><br><p><b>Benefits</b></p><li>Genuine leather, synthetic leather or textile upper depending on colorway</li><li>Foam midsole with encapsulated Zoom Air units in heel and forefoot</li><li>Shank plate</li><li>Rubber outsole</li></div></div>",
+    "summaryVideo":null,
+    "techSpecs":null,
+    "countryOfOrigin":null,
+    "desktopBazaarVoiceConfiguration":{
+        "apiUrl":"https://nike.ugc.bazaarvoice.com/static/9191-en_us/bvapi.js",
+        "submissionUrl":"https://store.nike.com/us/en_us/pd/air-jordan-13-retro-mens-shoe/pid-12136865/pgid-12412116?review=true",
+        "productId":"414571",
+        "displayCode":"",
+        "productWidth":"REGULAR",
+        "showSubmit":"false",
+        "attributes":null,
+        "showReviewSubmit":false
     },
-    "tabletBazaarVoiceConfiguration": {
-        "apiUrl": "https://nike.ugc.bazaarvoice.com/static/9191m-en_us/bvapi.js",
-        "submissionUrl": "https://store.nike.com/us/en_us/pd/air-jordan-9-retro-mens-shoe/pid-11970831/pgid-11420625?review=true",
-        "productId": "302370",
-        "displayCode": "m",
-        "productWidth": "REGULAR",
-        "showSubmit": "false",
-        "attributes": null,
-        "showReviewSubmit": false
+    "tabletBazaarVoiceConfiguration":{
+        "apiUrl":"https://nike.ugc.bazaarvoice.com/static/9191m-en_us/bvapi.js",
+        "submissionUrl":"https://store.nike.com/us/en_us/pd/air-jordan-13-retro-mens-shoe/pid-12136865/pgid-12412116?review=true",
+        "productId":"414571",
+        "displayCode":"m",
+        "productWidth":"REGULAR",
+        "showSubmit":"false",
+        "attributes":null,
+        "showReviewSubmit":false
     },
-    "featuredTechnology": null,
-    "crossSellConfiguration": {
-        "language": "en",
-        "currency": "USD",
-        "country": "US",
-        "nflTeamName": null,
-        "numProducts": 4,
-        "schemeName": "product_rr",
-        "productId": "11970831",
-        "colorwayProductIds": [
-            "11970831"
+    "featuredTechnology":null,
+    "crossSellConfiguration":{
+        "language":"en",
+        "currency":"USD",
+        "country":"US",
+        "nflTeamName":null,
+        "numProducts":4,
+        "schemeName":"product_rr",
+        "productId":"12136865",
+        "colorwayProductIds":[
+            "12136865",
+            "11825673"
         ]
     },
-    "leagueJersey": false,
-    "multipleImages": true,
-    "thumbnailUrl": "https://images.nike.com/is/image/DotCom/PDP_THUMB/302370_021_A_PREM/air-jordan-9-retro-mens-shoe.jpg",
-    "notifiableSkus": [{
-            "id": "21126426",
-            "sizeDescription": "7",
-            "inStock": false,
-            "displaySize": "7",
-            "sku": "21126426"
-        },
-        {
-            "id": "21126427",
-            "sizeDescription": "7.5",
-            "inStock": false,
-            "displaySize": "7.5",
-            "sku": "21126427"
-        },
-        {
-            "id": "21126428",
-            "sizeDescription": "8",
-            "inStock": false,
-            "displaySize": "8",
-            "sku": "21126428"
-        },
-        {
-            "id": "21126510",
-            "sizeDescription": "12.5",
-            "inStock": false,
-            "displaySize": "12.5",
-            "sku": "21126510"
-        },
-        {
-            "id": "21126513",
-            "sizeDescription": "15",
-            "inStock": false,
-            "displaySize": "15",
-            "sku": "21126513"
-        },
-        {
-            "id": "21126514",
-            "sizeDescription": "16",
-            "inStock": false,
-            "displaySize": "16",
-            "sku": "21126514"
-        },
-        {
-            "id": "21126515",
-            "sizeDescription": "17",
-            "inStock": false,
-            "displaySize": "17",
-            "sku": "21126515"
-        },
-        {
-            "id": "21126516",
-            "sizeDescription": "18",
-            "inStock": false,
-            "displaySize": "18",
-            "sku": "21126516"
-        }
+    "leagueJersey":false,
+    "multipleImages":true,
+    "thumbnailUrl":"https://images.nike.com/is/image/DotCom/PDP_THUMB/414571_006_A_PREM/air-jordan-13-retro-mens-shoe.jpg",
+    "notifiableSkus":[
+
     ]
 }
