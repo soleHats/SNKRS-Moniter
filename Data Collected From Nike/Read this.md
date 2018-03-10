@@ -25,7 +25,7 @@ print(j2)
 ```
 
 ### Todo List
-- [ ] Locate JSON
+- [x] Locate JSON
 - [ ] Locate the indacation of the sizes in stock
 - [ ] Locate the Client ID within the JSON/HTML
 
