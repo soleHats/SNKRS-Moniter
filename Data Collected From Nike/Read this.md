@@ -15,9 +15,30 @@ Through my research of Nike's website I have found that Nike uses two different 
 ## Webpage 2 - Old JSON Formate
 
 ![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.19.55%20PM.png)
-![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.18.30%20PM.png)
+
+To find the JSON within this formate of the nike page input:
+
+```python
+import requests
+from bs4 import BeautifulSoup
+import json
+
+StyleCode = raw_input("What is the SKU?")
+
+URL = 'https://store.nike.com/us/en_us/pw/n/1j7?sl=' + str(StyleCode)
+r = requests.get(URL).content
+lxml = BeautifulSoup(r, "lxml")
+j = lxml.find("script", {"id": "product-data"}).string
+print(j)
+```
 
 ### Todo List
 - [x] Locate JSON
 - [x] Locate the indacation of the sizes in stock
 - [ ] Locate the Client ID within the JSON/HTML
+
+## Webpage 3 - Countdown Page
+![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.18.30%20PM.png)
+
+
+
