@@ -42,7 +42,7 @@ print(j)
 - [x] Locate the indacation of the sizes in stock
 - [ ] Locate the Client ID within the JSON/HTML
 
-## Webpage 3 - Countdown Page
+## Webpage 3 - Countdown Page (JSON Formate Unknown)
 ![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.18.30%20PM.png)
 
 To find the JSON within this formate of the Nike page, input/use:
