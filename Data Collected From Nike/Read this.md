@@ -4,6 +4,8 @@ Through my research of Nike's website I have found that Nike uses two different 
 
 ## Webpage 1 - New JSON Formate
 
+Within the new webpage formate, I was able to find sets of JSON data. Right now I am trying to firgure out how to use the data that is givin to find the sizes in stock.
+
 ![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.19.28%20PM.png)
 
 To find the JSON within this formate of the Nike page, input/use:
