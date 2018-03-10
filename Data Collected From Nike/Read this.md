@@ -6,6 +6,11 @@ Through my research of Nike's website I have found that Nike uses two different 
 
 ![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.19.28%20PM.png)
 
+To find the JSON within this formate of the Nike page, input/use:
+
+```python
+#Still working on this 
+```
 
 ### Todo List
 - [ ] Locate JSON
@@ -16,7 +21,7 @@ Through my research of Nike's website I have found that Nike uses two different 
 
 ![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.19.55%20PM.png)
 
-To find the JSON within this formate of the nike page input:
+To find the JSON within this formate of the Nike page, input/use:
 
 ```python
 import requests
@@ -40,5 +45,14 @@ print(j)
 ## Webpage 3 - Countdown Page
 ![alt text](https://github.com/MJC17/Nike-Stock-Moniter/blob/master/Data%20Collected%20From%20Nike/Images/Screen%20Shot%202018-03-09%20at%2012.18.30%20PM.png)
 
+To find the JSON within this formate of the Nike page, input/use:
 
+```python
+#Still working on this 
+```
+
+### Todo List
+- [ ] Locate JSON
+- [ ] Locate the indacation of the sizes in stock
+- [ ] Locate the the data invalving the countdown timer
 
