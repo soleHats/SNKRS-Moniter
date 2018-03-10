@@ -46,7 +46,8 @@ URL = 'https://store.nike.com/us/en_us/pw/n/1j7?sl=' + str(StyleCode)
 r = requests.get(URL).content
 lxml = BeautifulSoup(r, "lxml")
 j = lxml.find("script", {"id": "product-data"}).string
-print(j)
+jsn = json.loads(j)
+print(jsn)
 ```
 
 ### Todo List
