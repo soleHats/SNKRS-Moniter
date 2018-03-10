@@ -1,6 +1,6 @@
 # JSON That Has Been Collected From Nike.com
 
-Through my research of Nike's website I have found that Nike uses two different types of webpages (not inclueding nike ID), due to this they also formate their JSON defferent. Both of these webpages use javascript with the JSON data to formate the overall look of the webpageon the front-end. The javascript disable and enable elements of the HTML (ex. size in stock).
+Through my research of Nike's website I have found that Nike uses two different types of webpages (not inclueding nike ID), due to this they also formate their JSON defferently. Both of these webpages use javascript with the JSON data to formate the overall look of the webpageon the front-end. The javascript disable and enable elements of the HTML (ex. size in stock).
 
 ## Webpage 1 - New JSON Formate
 
