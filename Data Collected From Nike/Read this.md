@@ -18,8 +18,10 @@ StyleCode = raw_input("What is the SKU?")
 URL = 'https://store.nike.com/us/en_us/pw/n/1j7?sl=' + str(StyleCode)
 r = requests.get(URL).content
 lxml = BeautifulSoup(r, "lxml")
-j = lxml.find_all('script')[3]
-print(j)
+j1 = self.lxml.find_all('script')[3]
+print(j1)
+j2 = self.lxml.find_all('script')[8]
+print(j2)
 ```
 
 ### Todo List
