@@ -1,115 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "BaseTemp.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
-    <link rel="stylesheet" type="text/css" href="../static/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+{% block title %} Restock Watch {% endblock %}
 
-</head>
+{% block content %}
+<div class="mainBody ">
+	<div class="addBar container">
+		<h4>Search</h4>
+		<div>
+			<form class="row" action="{{ url_for('prosess') }}" method="post">
 
-<body>
-    <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-4">
+				<div class="col-md-3">
+					<h6>Product ID</h6>
+					<input name="ID" type="text" id="productId" class="form-control"
+					       placeholder="SKU (Example: AJ2998-001)" required="">
+				</div>
 
-                <a href="#">
-                    <h2>Coming Up</h2>
-                </a>
+				<div class="col-md-3">
+					<h6>Stock region</h6>
+					<select name="region" id="stockRegion" class="form-control" required="">
+						<option value="US">United States</option>
+						<option value="CN">Canada</option>
+						<option value="US">United Kingdom</option>
+					</select>
+				</div>
 
-                <a href="#">
-                    <h2>Past Release</h2>
-                </a>
+				<div class="col-md-3">
+					<h6>Website</h6>
+		 				<select name="website" id="website" class="form-control" required="">
+						<option value="ALL">All Sites</option>
+						<option value="NIKE">Nike </option>
+						<option value="ADIDUS">Adidus</option>
+						<option value="SNS">SNS (Sneakers n' Stuff)</option>
+					</select>
+				</div>
 
-                <a href="#">
-                    <h2>Restock Watch</h2>
-                </a>
+				<div class="col-lg-3">
 
-            </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-        </nav>
-    </div>
+					<br>
+					<input class="btn btn-primary" type="submit" value="Submit">
 
-    <div class="mainBody ">
-        <div class="addBar container">
-            <div>
-                <form class="row" action="{{ url_for('prosess') }}" method="post">
-
-                    <div class="col-md-3">
-                        <h6>Product ID</h6>
-                        <input name="ID" type="text" id="productId" class="form-control" placeholder="SKU (Example: AJ2998-001)" required="">
-                    </div>
-
-                    <div class="col-md-3">
-                        <h6>Stock region</h6>
-                        <select name="region" id="stockRegion" class="form-control" required="">
-                            <option value="US">United States</option>
-                            <option value="CN">Canada</option>
-                            <option value="US">United Kingdom</option>
-                        </select>
-                    </div>
-
-                    <div class="col-md-4">
-                        <h6>Client ID</h6>
-                        <input type="text" id="clientId" placeholder="Client ID" class="form-control" required="">
-                    </div>
-
-                    <div class="col-lg-2">
-
-                        <br>
-                        <input class="btn btn-primary" type="submit" value="Submit">
-
-                    </div>
-                </form>
-            </div>
-            <hr>
-        </div>
+				</div>
+			</form>
+		</div>
+		<hr>
+	</div>
 
 
-        <div class="sneakerList container">
+	<div class="sneakerList container">
 
-            <div class="container websitBox">
-                <h5>Nike.com</h5>
-                <div class="listCard container">
+		<div class="container websitBox">
+			<h5>Nike.com</h5>
+			<div class="listCard container">
 
-                    <div class="card row ">
+				<div class="card row ">
 
-                        <div class="cardContent cardLeft">
-                            <img src="https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/nm0qnr2xqurcnbby71ml/epic-react-flyknit-running-shoe-dPT0OXxW.jpg" height="200" width="200">
-                        </div>
+					<div class="cardContent cardLeft">
+						<img src="https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/nm0qnr2xqurcnbby71ml/epic-react-flyknit-running-shoe-dPT0OXxW.jpg"
+						     height="200" width="200">
+					</div>
 
-                        <div class="cardRight">
-                            <div class="cardContent">
-                                <h4>Sneaker name </h4>
-                                <h6>LAUNCH: FRIDAY, 9 MARCH 2018 - 3:00 EST</h6>
-                                <p>Colorway - Product ID</p>
-                            </div>
+					<div class="cardRight">
+						<div class="cardContent">
+							<h4>Sneaker name </h4>
+							<h6>LAUNCH: FRIDAY, 9 MARCH 2018 - 3:00 EST</h6>
+							<p>Colorway - Product ID</p>
+						</div>
 
-                            <div class="cardContent">
-                                <h5>Count down timer </h5>
-                            </div>
-                        </div>
+						<div class="cardContent">
+							<h5>Count down timer </h5>
+						</div>
+					</div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
-    </div>
-    </div>
+{% endblock %}
 
-</body>
 
-</html>

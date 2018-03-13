@@ -48,10 +48,15 @@ h2 {
     color: #ffffff;
 }
 
-.cardLeft {
-    float: left;
+.cardLeft{
+        display: inline-block;
+        border: 6px solid red;
+        margin:10px;
 }
 
+
 .cardRight {
-    float: right;
+           display: inline-block;
+           border: 6px solid red;
+margin:10px;
 }

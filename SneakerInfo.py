@@ -48,3 +48,9 @@ class NikeShoe:
 	def GetColorWay(self):
 		self.CW = self.jas['colorDescription']
 		return
+
+def nikesearch():
+	return
+
+def Search(StyleCode,Site,County):
+	return 

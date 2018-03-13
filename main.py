@@ -12,9 +12,10 @@ def index():
 def prosess():
 	StyleCode = request.form['ID']
 	region = request.form['region']
+	WS = request.form['website']
 
 	return
 
 
 if __name__ == "__main__":
-	app.run()
+	app.run(debug=True)
