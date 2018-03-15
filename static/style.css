@@ -23,11 +23,6 @@ img {
     padding: 1em;
 }
 
-.cardContent {
-    display: block;
-    width: 250px;
-}
-
 .mainBody {
     padding-top: 1em;
     align-content: center;
@@ -46,17 +41,4 @@ img {
 h2 {
     font-size: 4em;
     color: #ffffff;
-}
-
-.cardLeft{
-        display: inline-block;
-        border: 6px solid red;
-        margin:10px;
-}
-
-
-.cardRight {
-           display: inline-block;
-           border: 6px solid red;
-margin:10px;
 }
