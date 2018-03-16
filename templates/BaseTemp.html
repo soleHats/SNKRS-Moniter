@@ -19,7 +19,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
-    <title> {% block title %}   {% endblock %} </title>
+    <title> {% block title %}{% endblock %} </title>
     
 </head>
 
@@ -28,15 +28,15 @@
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
 
-                <a href="#">
+                <a href="{{url_for('comingUp')}}">
                     <h2>Coming Up</h2>
                 </a>
 
-                <a href="#">
+                <a href="{{url_for('releases')}}">
                     <h2>Past Release</h2>
                 </a>
 
-                <a href="#">
+                <a href="{{url_for('restock')}}">
                     <h2>Restock Watch</h2>
                 </a>
 

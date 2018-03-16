@@ -2,33 +2,30 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-class Shoe:
-
-	def __init__(self, Site, Region, StyleCode):
-
-		if Site.upper == "NIKE":
-			Nike(self, StyleCode, Region)
-		else:
-			pass
-	
+def Shoe(Site, Region, StyleCode):
+	if Site == "NIKE":
+		s = Nike(Region, StyleCode)
+	else:
+		pass
 
 
-def Nike(Shoe, StyleCode, Region):
+	return s
 
-		if Region == "US":
-			Shoe.URL = 'https://store.nike.com/us/en_us/pw/n/1j7?sl=' + str(StyleCode)
-		else:
-			pass
 
-		Shoe.r = requests.get(Shoe.URL).content
-		Shoe.soup = BeautifulSoup(Shoe.r, "lxml")
-		Shoe.j = Shoe.soup.find("script", {"id": "product-data"}).string
-		Shoe.jsn = json.loads(Shoe.j)
-		print(Shoe.j)
+
+class Nike:
+	def __init__(self, Region, StyleCode):
+		
+		self.URL = 'https://store.nike.com/us/en_us/pw/n/1j7?sl=' + str(StyleCode)
+		self.r = requests.get(self.URL).content
+		self.soup = BeautifulSoup(self.r, "lxml")
+		self.j = self.soup.find("script", {"id": "product-data"}).string
+		self.jas = json.loads(self.j)
+
 		# Sizes in Stock
-		Shoe.sizesinStock = []
-		Shoe.sizesBox = Shoe.jas['skuContainer']['productSkus']
-		for size in Shoe.sizesBox:
+		self.sizesinStock = []
+		self.sizesBox = self.jas['skuContainer']['productSkus']
+		for size in self.sizesBox:
 			if size['inStock'] == True:
 				sizeNum = size['displaySize']
 
@@ -41,19 +38,17 @@ def Nike(Shoe, StyleCode, Region):
 					sizeNum = int(sizeNum)
 				else:
 					sizeNum = float(sizeNum)
-				Shoe.sizesinStock.append(sizeNum)
+				self.sizesinStock.append(sizeNum)
 
-		Shoe.Price = Shoe.jas['rawPrice']
-		Shoe.Name = Shoe.jas['productTitle']
-		Shoe.ColorWay = Shoe.jas['colorDescription']
-		Shoe.StoreName = "Nike"
-		Shoe.Brand = "Nike"
-		Shoe.Region = Region
-		Shoe.StyleCode = Shoe.jas['chat']['productId']
-		Shoe.LDate = None
-		Shoe.LTime = None
-		Shoe.Img = Shoe.jas['imagesCopyLarge']
-		Shoe.Url = Shoe.jas['url']
-		Shoe.Currency = Shoe.jas['currencyCode']
-	
-	
+		self.Price = self.jas['rawPrice']
+		self.Name = self.jas['productTitle']
+		self.ColorWay = self.jas['colorDescription']
+		self.Site = "Nike.com"
+		self.Brand = "Nike"
+		self.Region = Region
+		self.StyleCode = self.jas['chat']['productId']
+		self.LDate = None
+		self.LTime = None
+		self.Img = self.jas['imagesCopyLarge']
+		self.Url = self.jas['url']
+		self.Currency = self.jas['currencyCode']

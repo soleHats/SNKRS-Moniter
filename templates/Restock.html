@@ -1,4 +1,8 @@
-{% extends "BaseTemp.html" %} {% block title %} Restock Watch {% endblock %} {% block content %}
+{% extends "BaseTemp.html" %}
+
+{% block title %} Restock Watch {% endblock %}
+
+{% block content %}
 <div class="mainBody ">
     <div class="addBar container">
         <h4>Search</h4>
@@ -7,26 +11,26 @@
 
                 <div class="col-md-3">
                     <h6>Product ID</h6>
-                    <input name="ID" type="text" id="productId" class="form-control" placeholder="SKU (Example: AJ2998-001)" required="">
+                    <input name="ID" type="text" id="productId" class="form-control"
+                           placeholder="SKU (Example: AJ2998-001)" required="">
                 </div>
 
                 <div class="col-md-3">
                     <h6>Stock region</h6>
                     <select name="region" id="stockRegion" class="form-control" required="">
-						<option value="US">United States</option>
-						<option value="CN">Canada</option>
-						<option value="US">United Kingdom</option>
-					</select>
+                        <option value="US">United States</option>
+                        <option value="CN">Canada</option>
+                        <option value="US">United Kingdom</option>
+                    </select>
                 </div>
 
                 <div class="col-md-3">
                     <h6>Website</h6>
                     <select name="website" id="website" class="form-control" required="">
-						<option value="ALL">All Sites</option>
-						<option value="NIKE">Nike </option>
-						<option value="ADIDUS">Adidus</option>
-						<option value="SNS">SNS (Sneakers n' Stuff)</option>
-					</select>
+                        <option value="NIKE">Nike</option>
+                        <option value="ADIDUS">Adidus</option>
+                        <option value="SNS">SNS (Sneakers n' Stuff)</option>
+                    </select>
                 </div>
 
                 <div class="col-lg-3">
@@ -50,7 +54,8 @@
                 <div class="card row ">
 
                     <div class="cardContent cardLeft col-md-3">
-                        <img src="https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/nm0qnr2xqurcnbby71ml/epic-react-flyknit-running-shoe-dPT0OXxW.jpg" height="200" width="200">
+                        <img src="https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/nm0qnr2xqurcnbby71ml/epic-react-flyknit-running-shoe-dPT0OXxW.jpg"
+                             width="200">
                     </div>
 
                     <div class="cardRight col-md-9">

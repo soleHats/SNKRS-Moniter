@@ -1,16 +1,17 @@
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from SNKRSScrapper import *
+import os
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/marcuscameron/Documents/GitHub/Nike-Stock-Moniter/Database.db'
 db = SQLAlchemy(app)
 
 from models import *
 
 @app.route('/', methods=['GET'])
 def index():
-	return 
+	return render_template("Restock.html")
 
 @app.route('/comingUp', methods=['GET']) #UpComming Releases Calendar
 def comingUp():
@@ -33,10 +34,12 @@ def portfolio():
 @app.route('/search', methods=['POST']) #Searching for shoes from websites
 def search():
 	StyleCode = request.form['ID']
-	region = request.form['region']
-	WS = request.form['website']
+	Region = request.form['region']
+	Site = request.form['website']
 
-	return
+	s = Shoe(Site, Region, StyleCode)
+
+	return render_template("Search.html", shoe=s, ID=StyleCode )
 
 @app.route('/add', methods=['POST'])  # Adding to the database
 def add():
@@ -44,8 +47,12 @@ def add():
 	Region = request.form['region']
 	Site = request.form['website']
 
-	s = Shoe(Site, Region, StyleCode)
-	shoe = SNKRSList(StoreName=s.StoreName,
+	if Site == "NIKE":
+		s = Nike(Region, StyleCode)
+	else:
+		pass
+
+	shoe = SNKRSList(Site=s.Site,
 						Brand=s.Brand,
 						Region=s.Region,
 						Name=s.Name,

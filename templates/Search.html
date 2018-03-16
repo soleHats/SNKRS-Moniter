@@ -1,0 +1,80 @@
+{% extends "BaseTemp.html" %}
+
+{% block title %} Searching for {{ID}} {% endblock %}
+
+{% block content %}
+<div class="mainBody ">
+	<div class="addBar container">
+		<h4>Search</h4>
+		<div>
+			<form class="row" action="{{ url_for('search') }}" method="post">
+
+				<div class="col-md-3">
+					<h6>Product ID</h6>
+					<input name="ID" type="text" id="productId" class="form-control"
+					       placeholder="SKU (Example: AJ2998-001)" required="">
+				</div>
+
+				<div class="col-md-3">
+					<h6>Stock region</h6>
+					<select name="region" id="stockRegion" class="form-control" required="">
+						<option value="US">United States</option>
+						<option value="CN">Canada</option>
+						<option value="US">United Kingdom</option>
+					</select>
+				</div>
+
+				<div class="col-md-3">
+					<h6>Website</h6>
+					<select name="website" id="website" class="form-control" required="">
+						<option value="NIKE">Nike</option>
+						<option value="ADIDUS">Adidus</option>
+						<option value="SNS">SNS (Sneakers n' Stuff)</option>
+					</select>
+				</div>
+
+				<div class="col-lg-3">
+
+					<br>
+					<input class="btn btn-primary" type="submit" value="Submit">
+
+				</div>
+			</form>
+		</div>
+		<hr>
+	</div>
+
+
+	<div class="sneakerList container">
+
+		<div class="container websitBox">
+			<h5>{{ shoe.Site }}</h5>
+			<div class="listCard container">
+
+				<div class="card row ">
+
+					<div class="cardContent cardLeft col-md-3">
+						<img src="{{ shoe.Img }}" width="200">
+					</div>
+
+					<div class="cardRight col-md-9">
+						<div class="cardContent">
+							<h4>{{ shoe.Name }} </h4>
+							<h6>LAUNCH: FRIDAY, 9 MARCH 2018 - 3:00 EST</h6>
+							<p> {{shoe.StyleCode}} - {{shoe.ColorWay}}</p>
+						</div>
+
+						<div class="cardContent">
+							<h5>Count down timer </h5>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
+
